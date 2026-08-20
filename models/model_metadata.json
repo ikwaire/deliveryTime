@@ -1,0 +1,35 @@
+{
+  "best_model": "Gradient Boosting",
+  "test_metrics": {
+    "MAE": 11.705673105429483,
+    "RMSE": 18.4582135759279,
+    "R2": 0.9908167854764773
+  },
+  "cv_mae_by_model": {
+    "Linear Regression": 50.112242868181596,
+    "Ridge Regression": 50.09402590125495,
+    "Random Forest": 14.414456341880106,
+    "Gradient Boosting": 12.164786997382297
+  },
+  "n_training_rows": 4800,
+  "n_test_rows": 1200,
+  "features_numeric": [
+    "distance_km",
+    "num_stops",
+    "package_weight_kg",
+    "rider_experience_years"
+  ],
+  "features_categorical": [
+    "destination_town",
+    "vehicle_type",
+    "road_condition",
+    "weather",
+    "traffic_level",
+    "order_type",
+    "time_of_day",
+    "day_of_week",
+    "is_weekend",
+    "network_signal"
+  ],
+  "target": "delivery_time_minutes"
+}
