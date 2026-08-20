@@ -1,6 +1,6 @@
 # Delivery Time Estimation
 
-**iDICE Founders Lab — Data Science Track — Capstone Project**
+**NextGen 3MTT — Data Science Track — Capstone Project**
 
 ## Problem
 
